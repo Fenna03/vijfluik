@@ -65,10 +65,20 @@ body {
     position: relative;
 }
 
+#makeyMakeyScreen {
+    width: 40%;
+    height: 85%;
+    background-color: #1C1B22;
+    position: absolute;
+    border-radius: 10px;
+    right: 880px;
+    top: 50px;
+}
+
 #makeyMakeyText {
     width: 800px;
     display: block;
-    margin-left: 15px;
+    margin-left: 660px;
     margin-top: 35px;
     color: #B56576;
 }
@@ -88,16 +98,6 @@ body {
     margin-left: 25px;
 }
 
-
-#makeyMakeyScreen {
-    width: 40%;
-    height: 85%;
-    background-color: #1C1B22;
-    position: absolute;
-    border-radius: 10px;
-    right: 100px;
-    top: 50px;
-}
 
 /*#endregion MakeyMakey*/
 
@@ -148,6 +148,17 @@ body {
 /*#endregion FPSGame*/
 
 /*#region Pong*/
+
+#pongScreen {
+    width: 57%;
+    height: 87%;
+    background-color: #1C1B22;
+    position: absolute;
+    border-radius: 10px;
+    right: 630px;
+    top: 40px;
+}
+
 #pong {
     display: flex;
     height: 730px;
@@ -159,7 +170,7 @@ body {
 #pongText {
     width: 800px;
     display: block;
-    margin-left: 15px;
+    margin-left: 920px;
     margin-top: 35px;
     color: #355070;
 }
@@ -177,18 +188,7 @@ body {
     margin-bottom: 0px;
     margin-top: 10px;
     margin-left: 25px;
-    width: 70%;
-}
-
-
-#pongScreen {
-    width: 57%;
-    height: 87%;
-    background-color: #1C1B22;
-    position: absolute;
-    border-radius: 10px;
-    right: 45px;
-    top: 40px;
+    width: 80%;
 }
 
 /*#endregion Pong*/
