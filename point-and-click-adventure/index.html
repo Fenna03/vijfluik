@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Point and click adventure</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="bodyID">
+    <div id="title">
+        <h1 id="mainTitle">Something</h1>
+    </div>
+    <div id="gameWindow">
+        <!--inventory box-->
+        <div id="inventoryBox" class="foreground">
+            <ul id="inventoryList">
+
+            </ul>
+        </div>
+        <!--dialog bar for hero/mc and the thing they're speaking to-->
+        <div id="dialogBar" class="foreground">
+            <div id="brownBar" class="foreground"></div>
+            <div id="setMainDialog">
+                <div id="heroAvatar" class="foreground">
+                    <img src="images/portairt.png" alt="heroAvatar">
+                </div>
+                <div id="heroSpeech" class="foreground speechBubble">
+                </div>
+                <div id="CounterAvatar" class="foreground">
+                    <img src="images/Untitled 02-29-2024 08-26-19.png" alt="Counter Avatar">
+                </div>
+                <div id="CounterAvatar2" class="foreground">
+                    <img src="images/PortraitSkelly.png" alt="Counter Avatar">
+                </div>
+                <div id="counterSpeech" class="foreground speechBubble">
+                </div>
+            </div>
+        </div>
+        <!--foreground-->
+
+        <div id="doorWizardHut" class="foreground"> </div>
+        <!--main Character-->
+        <div id="Hero" class="character">
+            <img src="images/animated-character-1-idle.gif" alt="hero" id="HeroImage">
+        </div>
+
+        <!--background-->
+        <div id="map1" class="background">
+            <img src="images/background.png" alt="tilemap" draggable="false">
+            <div id="well" class="foreground"> </div>
+            <div id="key" class="foreground"> </div>
+            <div id="statue" class="foreground"></div>
+            <div id="box1" class="foreground"></div>
+            <div id="box2" class="foreground"></div>
+            <div id="box3" class="foreground"></div>
+        </div>
+        <div id="map2" class="background">
+            <img src="images/cave1.png" alt="tilemap" draggable="false">
+            <div id="entrance" class="foreground"></div>
+            <div id="goBack" class="foreground">
+            </div>
+            <div id="stone" class="foreground"></div>
+            <div id="stone1" class="foreground"></div>
+            <div id="waterStone" class="foreground"></div>
+            <div id="arrow1" class="foreground"></div>
+            <div id="arrow2" class="foreground"></div>
+            <div id="arrow3" class="foreground"></div>
+        </div>
+        <div id="map3" class="background">
+            <img src="images/SKELLY.png" alt="tilemap" draggable="false">
+            <div id="SKELLY" class="foreground"></div>
+            <div id="Exit" class="foreground"></div>
+        </div>
+    </div>
+
+    <audio id="heroAudio">
+        <source src="audio/Gibberish - Sound Effect_01.mp3">
+    </audio>
+    <audio id="counterAudio">
+        <source src="audio/high pitch voice.mp3">
+    </audio>
+</body>
+<script src="js/main.js"></script>
+
+</html>
